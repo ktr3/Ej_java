@@ -19,5 +19,6 @@ public class Prueba {
 		System.out.println(s.calc_distancia());
 		
 	}
+	
 
 }
