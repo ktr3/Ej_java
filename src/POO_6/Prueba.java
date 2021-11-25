@@ -5,6 +5,7 @@ import POO_5.Console;
 public class Prueba {
 
 	public static void main(String[] args) {
+	
 
 		System.out.println("Teclea el valor para x: ");
 		int x = Console.readInt();
@@ -14,6 +15,8 @@ public class Prueba {
 		Punto a2 = new Punto(6,-2);
 		System.out.println(a1.Cuadrante());
 		System.out.println(a2.Cuadrante());
+		Segmento s = new Segmento(a1,a2);
+		System.out.println(s.calc_distancia());
 	}
 
 }
