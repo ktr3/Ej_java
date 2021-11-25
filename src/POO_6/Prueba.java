@@ -17,6 +17,7 @@ public class Prueba {
 		System.out.println(a2.Cuadrante());
 		Segmento s = new Segmento(a1,a2);
 		System.out.println(s.calc_distancia());
+		
 	}
 
 }
